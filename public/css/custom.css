@@ -1,0 +1,290 @@
+/* -----------------------------------------
+   Custom.css - put your own changes here 
+----------------------------------------- */
+#wrapper {
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.container {
+  width: 90%;
+  padding: 0 10px 0 10px;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#header.header-fixed,
+#header.container {
+  height: 50px;
+  /* background-color: #eb6a00; */
+}
+
+#header .logo {
+  padding: 10px 0 0 0;
+}
+
+img.logolg {
+  width: 120px;
+}
+
+#header .site-nav>ul>li>a {
+  padding: 14px 15px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.print-table table {
+  font-family: Tahoma, Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 10px;
+}
+
+.print-table tbody td,
+.print-table thead th {
+  border-color: #ddd;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.print-table thead {
+  background-color: #e8e8e8;
+}
+
+/* .dataTables_wrapper table.dataTable tbody td,
+.dataTables_wrapper table.dataTable tbody th {
+  background-color: #fff;
+  border: 1px solid #e6edef;
+}
+
+.dataTables_wrapper table.dataTable th,
+.dataTables_wrapper table.dataTable td {
+  padding: 0.5rem;
+  border-color: #e6edef;
+} */
+
+table.info thead,
+table.info tbody,
+table.info tfoot,
+table.info tr,
+table.info td,
+table.info th {
+  border: 1px solid #e6edef;
+  border-color: #e6edef;
+  padding: 4px 6px;
+  height: 24px;
+}
+
+table.calculator thead,
+table.calculator tbody,
+table.calculator tfoot,
+table.calculator tr,
+table.calculator td,
+table.calculator th {
+  border: 1px solid #e6edef;
+  border-color: #e6edef;
+  padding: 6px;
+  height: 24px;
+}
+
+table.calculator .input-sm {
+  height: 26px;
+}
+
+table.dataTable th {
+  font-size: 13px;
+}
+
+table.dataTable td {
+  font-size: 13px;
+}
+
+table.dataTable tr.dtrg-level-0 td {
+  font-size: 13px;
+}
+
+table.dataTable.dt-checkboxes-select tbody tr,
+table.dataTable thead th.dt-checkboxes-select-all,
+table.dataTable tbody td.dt-checkboxes-cell {
+  cursor: pointer;
+}
+
+table.dataTable thead th.dt-checkboxes-select-all,
+table.dataTable tbody td.dt-checkboxes-cell {
+  text-align: center;
+}
+
+div.dataTables_wrapper span.select-info,
+div.dataTables_wrapper span.select-item {
+  margin-left: 0.5em;
+}
+
+@media screen and (max-width: 640px) {
+
+  div.dataTables_wrapper span.select-info,
+  div.dataTables_wrapper span.select-item {
+    margin-left: 0;
+    display: block;
+  }
+}
+
+.form-horizontal .control-label {
+  padding-top: 0;
+}
+
+.input-group-sm>.input-group-addon {
+  height: 26px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+.input-group-sm>.form-control {
+  font-size: 13px;
+}
+
+.input-sm {
+  font-size: 13px;
+}
+
+div.checkbox-custom {
+  margin-top: 0;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: #e6edef;
+}
+
+address {
+  margin-bottom: 0;
+}
+
+hr.mdpt {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.panel-mdpt {
+  border-color: #eb6a00;
+}
+
+.panel-mdpt>.panel-heading {
+  color: #ffffff;
+  background-color: #eb6a00;
+  border-color: #f38231;
+}
+
+.mapView {
+  width: 100%;
+  float: right;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.col {
+  display: inline-table;
+  width: 80%;
+  /* flex: 1 0 0%; */
+}
+
+.col-auto {
+  /* flex: 0 0 auto; */
+  display: inline-table;
+  float: right;
+  inline-size: auto;
+}
+
+td.highlight {
+  background-color: #e6edef !important;
+}
+
+td.details-control {
+  background: url("../img/details_open.png") no-repeat center center;
+  cursor: pointer;
+}
+
+tr.shown td.details-control {
+  background: url("../img/details_close.png") no-repeat center center;
+}
+
+table.dataTable tbody tr.selected>* {
+  box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.9);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.help-block {
+  color: #ff0000;
+}
+
+div.checkbox-custom.checkbox-inline {
+  margin-top: 2px;
+}
+
+.google {
+  z-index: 1000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70%;
+}

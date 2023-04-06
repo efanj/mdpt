@@ -1,0 +1,43 @@
+{
+  "name": "efanazaha/mdt",
+  "type": "project",
+  "description": "",
+  "keywords": [
+    "framework",
+    "authentication",
+    "authorization",
+    "mvc",
+    "security",
+    "login",
+    "encryption",
+    "validation",
+    "files",
+    "ajax"
+  ],
+  "homepage": "https://github.com/OmarElGabry/miniPHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "efanazaha",
+      "email": "azaha.bigcloud@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "phpmailer/phpmailer": "~5.2",
+    "gregwar/captcha": "~1.1.1",
+    "dompdf/dompdf": "~2.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "": [
+        "app/core/",
+        "app/models/",
+        "app/utility/",
+        "app/controllers/",
+        "app/core/components/"
+      ]
+    }
+  }
+}

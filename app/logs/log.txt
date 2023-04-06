@@ -1,0 +1,229 @@
+
+04/04/2023, 03:26:47 | /usr/local/var/www/mdt/portal/app/models/Oracle.php | 113 | PDOException
+SQLSTATE[HY000]: General error: 920 OCIStmtExecute: ORA-00920: invalid relational operator
+ (/Users/mohdazaha/Downloads/php-8.1.14-src/ext/pdo_oci/oci_statement.c:155)
+*******************************************************************
+
+04/04/2023, 03:27:49 | /usr/local/var/www/mdt/portal/app/models/Oracle.php | 113 | PDOException
+SQLSTATE[HY000]: General error: 920 OCIStmtExecute: ORA-00920: invalid relational operator
+ (/Users/mohdazaha/Downloads/php-8.1.14-src/ext/pdo_oci/oci_statement.c:155)
+*******************************************************************
+
+04/04/2023, 03:29:05 | /usr/local/var/www/mdt/portal/app/models/Oracle.php | 113 | PDOException
+SQLSTATE[HY000]: General error: 920 OCIStmtExecute: ORA-00920: invalid relational operator
+ (/Users/mohdazaha/Downloads/php-8.1.14-src/ext/pdo_oci/oci_statement.c:155)
+*******************************************************************
+
+04/04/2023, 03:29:38 | /usr/local/var/www/mdt/portal/app/models/Oracle.php | 113 | PDOException
+SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "H"."PMK_NMBIL": invalid identifier
+ (/Users/mohdazaha/Downloads/php-8.1.14-src/ext/pdo_oci/oci_statement.c:155)
+*******************************************************************
+
+04/04/2023, 03:30:56 | /usr/local/var/www/mdt/portal/app/models/Oracle.php | 113 | PDOException
+SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "H"."PVD_EMAIL": invalid identifier
+ (/Users/mohdazaha/Downloads/php-8.1.14-src/ext/pdo_oci/oci_statement.c:155)
+*******************************************************************
+
+04/04/2023, 03:31:34 | /usr/local/var/www/mdt/portal/app/models/Oracle.php | 113 | PDOException
+SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "H"."PVD_ALMT4": invalid identifier
+ (/Users/mohdazaha/Downloads/php-8.1.14-src/ext/pdo_oci/oci_statement.c:155)
+*******************************************************************
+
+04/04/2023, 05:00:04 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "WHERE"
+LINE 1: WHERE s.submition_date = $1
+        ^
+*******************************************************************
+
+04/04/2023, 05:12:31 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "WHERE"
+LINE 1: WHERE s.submition_date = $1
+        ^
+*******************************************************************
+
+04/04/2023, 05:12:54 | /usr/local/var/www/mdt/portal/vendor/dompdf/dompdf/src/Dompdf.php | 526 | Error
+Call to a member function build_tree() on null
+*******************************************************************
+
+04/04/2023, 05:17:07 | /usr/local/var/www/mdt/portal/app/models/Vendor.php | 507 | ErrorException
+Trying to access array offset on value of type bool
+*******************************************************************
+
+04/04/2023, 05:18:37 | /usr/local/var/www/mdt/portal/app/models/Vendor.php | 507 | ErrorException
+Trying to access array offset on value of type bool
+*******************************************************************
+
+04/04/2023, 05:18:39 | /usr/local/var/www/mdt/portal/app/models/Vendor.php | 507 | ErrorException
+Trying to access array offset on value of type bool
+*******************************************************************
+
+04/04/2023, 05:41:14 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...tor c ON s.smk_akaun = c.account_no WHERE s.smk_submit_id = 
+                                                                       ^
+*******************************************************************
+
+04/04/2023, 05:43:03 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...tor c ON s.smk_akaun = c.account_no WHERE s.smk_submit_id = 
+                                                                       ^
+*******************************************************************
+
+04/04/2023, 05:51:20 | /usr/local/var/www/mdt/portal/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php | 40 | Error
+Call to a member function get_cellmap() on null
+*******************************************************************
+
+04/04/2023, 05:52:32 | /usr/local/var/www/mdt/portal/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php | 40 | Error
+Call to a member function get_cellmap() on null
+*******************************************************************
+
+05/04/2023, 21:57:59 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[22008]: Datetime field overflow: 7 ERROR:  date/time field value out of range: "2704-20-23"
+HINT:  Perhaps you need a different "datestyle" setting.
+CONTEXT:  unnamed portal parameter $1 = '...'
+*******************************************************************
+
+05/04/2023, 22:00:58 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[22008]: Datetime field overflow: 7 ERROR:  date/time field value out of range: "27-04-2023"
+HINT:  Perhaps you need a different "datestyle" setting.
+CONTEXT:  unnamed portal parameter $1 = '...'
+*******************************************************************
+
+05/04/2023, 22:14:05 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42703]: Undefined column: 7 ERROR:  column s.smk_akaun does not exist
+LINE 1: ...= s1.smk_submit_id LEFT JOIN data.calculator c ON s.smk_akau...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "s1.smk_akaun".
+*******************************************************************
+
+06/04/2023, 02:02:58 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42703]: Undefined column: 7 ERROR:  column f.file does not exist
+LINE 1: SELECT s.*, s1.*, c.siri_no, f.file, d.doc FROM data.submiss...
+                                     ^
+*******************************************************************
+
+06/04/2023, 02:17:39 | /usr/local/var/www/mdt/portal/app/views/printing/dataNilaianSemula.php | 5 | ErrorException
+Undefined variable $date
+*******************************************************************
+
+06/04/2023, 02:18:08 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "data.v_submitioninfops" does not exist
+LINE 1: ...bab, mesej, status, entry, verifier, vstatus FROM data.v_sub...
+                                                             ^
+*******************************************************************
+
+06/04/2023, 02:27:44 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42703]: Undefined column: 7 ERROR:  column "status" does not exist
+LINE 1: ...nilth_baru, kadar_baru, cukai_baru, sebab, mesej, status, en...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "v_submitioninfops.vstatus".
+*******************************************************************
+
+06/04/2023, 02:28:46 | /usr/local/var/www/mdt/portal/app/views/printing/dataNilaianSemula.php | 78 | ErrorException
+Undefined array key "akaun"
+*******************************************************************
+
+06/04/2023, 02:29:12 | /usr/local/var/www/mdt/portal/app/views/printing/dataNilaianSemula.php | 79 | ErrorException
+Undefined array key "smk_adpg1"
+*******************************************************************
+
+06/04/2023, 02:30:22 | /usr/local/var/www/mdt/portal/app/views/printing/dataNilaianSemula.php | 80 | ErrorException
+Undefined array key "smk_nolot"
+*******************************************************************
+
+06/04/2023, 02:32:10 | /usr/local/var/www/mdt/portal/app/views/printing/dataNilaianSemula.php | 81 | ErrorException
+Undefined array key "smk_lsbgn"
+*******************************************************************
+
+06/04/2023, 02:35:44 | /usr/local/var/www/mdt/portal/app/views/printing/dataNilaianSemula.php | 86 | ErrorException
+number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+*******************************************************************
+
+06/04/2023, 02:57:57 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...tor c ON s.smk_akaun = c.account_no WHERE s.smk_submit_id = 
+                                                                       ^
+*******************************************************************
+
+06/04/2023, 02:58:11 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...tor c ON s.smk_akaun = c.account_no WHERE s.smk_submit_id = 
+                                                                       ^
+*******************************************************************
+
+06/04/2023, 03:05:44 | /usr/local/var/www/mdt/portal/app/core/View.php | 73 | ErrorException
+require_once(/usr/local/var/www/mdt/portal/app/views/layout/vendor/evaluationlist/header.php): Failed to open stream: No such file or directory
+*******************************************************************
+
+06/04/2023, 03:38:05 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:40:44 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:42:12 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:43:05 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:44:13 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:46:42 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:47:10 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:47:47 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:48:20 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:48:53 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:49:17 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:51:29 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:58:21 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:59:14 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 03:59:21 | /usr/local/var/www/mdt/portal/app/core/components/SecurityComponent.php | 136 | Exception
+The request has been deined
+*******************************************************************
+
+06/04/2023, 04:21:35 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...tor c ON s.smk_akaun = c.account_no WHERE s.smk_submit_id = 
+                                                                       ^
+*******************************************************************
+
+06/04/2023, 14:52:30 | /usr/local/var/www/mdt/portal/app/models/Database.php | 127 | PDOException
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...tor c ON s.smk_akaun = c.account_no WHERE s.smk_submit_id = 
+                                                                       ^
+*******************************************************************
+
